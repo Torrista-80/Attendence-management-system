@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:  0 ;
+}
+
+body{
+
+    background-image: url("./images/1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color:white;
+}
+
+#Students-Profile {
+        display: flex;
+        font-size: 40px;
+         padding: 4px;
+         margin-top: 2%;
+         width: 90%;
+         margin-left: 5%;
+}
+#Students-Profile .download-Exit{
+        display: flex;
+        transform: translateX(900px);
+        margin-left:90px;
+
+}
+#Students-Profile .download-Exit a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#Personal-details{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Personal-details .info{
+    padding: 6px;
+    width:20%;
+}
+
+#attendance{
+    display: flex;
+    margin-top: 2%;
+    transform: translatex(300px);
+    display: inline-flex; 
+    width: 79%;
+    height:300px;
+ 
+ }
+ 
+ #attendance .totalAttendance{
+    display: flex;
+    margin-left:50px;
+    justify-content: center;
+    align-items: center;
+    width:15%;
+    box-shadow: 6px 4px 10px white;
+    border-radius: 10px;
+ 
+ }
+ 
+ #attendance .totalAttendance p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ #attendance .totalAttendance  span{
+   
+        display: flex;
+        justify-content: center;
+       text-align: center ;
+       font-size:100px;
+       overflow:hidden;
+ }
+
+
+ #remainingAssignments{
+    display: flex;
+    transform: translateY(60px);
+    text-transform: capitalize;
+    margin-left:10% ;
+    font-size: 40px;
+    width:40%;
+ }
+
+ #Assignments{
+
+    display: flex;
+    width:90%;
+    text-align: center;
+    transform: translateY(90px);
+    margin-left: 5% ;
+    height: 200px;
+    box-sizing: content-box;
+    cursor: pointer;
+ }
+
+
+ #Assignments .subject-5{
+    margin:20px;
+    padding: 8px  auto;
+    height: 90%;
+    width:20%;
+    border-radius: 15%;
+    box-shadow: 6px 6px 8px  white;
+ 
+ }
+ #Assignments .subject-5 h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(75px);
+    font-size: 23px;
+ }
+ 
+ 
+

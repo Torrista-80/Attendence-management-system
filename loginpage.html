@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>login-page</title>
+</head>
+<body>
+    <div class="login">
+        <div class="form-login sign-in">
+
+            <form id="form" method="post" action="#">
+                <h1>login </h1>
+
+                <div class="user-selector">
+                    <input type="radio" name="users" id="admin">Admin 
+                    <input type="radio" name="users" id="teacher"required>teacher
+                    <input type="radio" name="users" id="student">student
+                </div>
+
+                <div class="input-group">
+                <input type="text" name="Username" required>
+                <label for="Username">Username</label><br>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="PASSWORD" required>
+                    <label for="PASSWORD">Password</label><br>
+                </div>
+                <div class="remember-me">
+                    <label for=""><input type="checkbox"> remember me</label>
+                </div>
+                     <button type="submit">Login</button>
+                <div class="signup-link">
+                    <p>Donot have account?<a href="#"
+                        class="signUpBtn-link"> Sign Up</a></p>
+                    </div>
+    
+           </form>
+        </div>
+
+        <div class="form-login sign-up">
+
+            <form id="form" method="post" action="#">
+               
+                <div id="signup-input">
+                    <div class="user-selector">
+                        <input type="radio" name="users" id="admin"required >Admin 
+                        <input type="radio" name="users" id="teacher">teacher
+                        <input type="radio" name="users" id="student">student
+                    </div>
+                    
+                    <div class="input-group">
+                    <input type="text" name="Username" required>
+                    <label for="Username">Username</label><br>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" name="Email" required>
+                        <label for="Email">Email<br>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" name="PASSWORD" required>
+                        <label for="PASSWORD">Password<br>
+                    </div>
+                
+                    <div class="remember-me">
+                        <label for=""><input type="checkbox" required> I agree your terms & conditions</label>
+                    </div>
+                        <button type="submit">Signup</button>
+                    <div class="signup-link">
+                        <p>Already have account?<a href="#" class="signInBtn-link"> Sign In </a></p>
+                    </div>
+                </div>    
+           </form>
+        </div>
+    </div>
+
+    <script src="loginpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+
+}
+body{
+    background-image: url("./images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color:white;
+}
+
+ header h1{
+
+   width: 80%;
+   text-align: center;
+   font-size: 70px;
+   transform: translateX(18%);
+   margin-top:5%;
+ }
+
+ main #navigation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(50px);
+    width:5%;
+    margin-left:6%;
+    text-align: center;
+    height: 575px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px  white;
+    cursor: pointer;
+    position: relative;
+ }
+a{
+    text-decoration: none;
+    color: white;
+}
+ #navigation ul  li {
+    padding: 30px;
+    margin-top: 10px;
+    list-style: none;
+
+ }
+
+ #navigation #Exit{
+    transform: translateY(200px);
+ }
+
+ .date-section{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-500px);
+    margin-left: 16%;
+    border-radius: 10%;
+    box-shadow: 8px 6px 10px white;
+
+ }
+
+ .calender{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    overflow:hidden;
+ }
+
+.left, .right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-size: 30px;
+}
+
+#date {
+    font-size: 45px;
+}
+
+.right{
+    width: 48%;
+    background-color: rgb(39, 7, 68); 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.left{
+    background-color: white;
+    opacity: 0.6;
+    color:rgb(39, 7, 68);
+    width:52%;
+}
+main #main-content{
+    display: flex;
+    width:60%;
+    height: 200px;
+    transform: translateY(-700px);
+    float: right;
+
+}
+
+.content-items-studentsInfo  {
+    border-radius: 10%;
+    margin-right:40px;
+    padding: 6px;   
+    text-transform: capitalize;
+    box-shadow: 6px 4px 10px white;
+    cursor: pointer;
+}
+
+
+span{
+    display: flex;
+    justify-content: center;
+   text-align: center ;
+   font-size:100px;
+   overflow:hidden;
+}
+
+
+
+#subjects{
+    display: flex;
+    width:85%;
+    transform: translateY(-600px);
+    text-align: center;
+    margin: 20px 200px;
+    height: 200px;
+    box-sizing: content-box;
+    border-radius: 10%;
+    cursor: pointer;
+}
+#subjects .subject-5{
+    margin:20px;
+    padding: 8px  auto;
+    height: 90%;
+    width:20%;
+    border-radius: 15%;
+    box-shadow: 6px 6px 8px  white;
+
+}
+#subjects .subject-5 h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(75px);
+    font-size: 23px;
+}
+
+

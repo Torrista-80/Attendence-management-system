@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="admin1.css">
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <h1>Teacher's Dashboard</h1>
+    </header>
+
+    <main>
+        <div id="navigation">
+            <nav id="nav_bar">
+                <ul>
+                    <li><a href="admin_dashboard.html"><i class="fa-solid fa-house" style="font-size: 23px;" ></i></a></li>
+                    <li><a href="students_list.html"><i class="fa-solid fa-users" style="font-size: 23px;"></i></a></li>
+                    <li><i class="fa-solid fa-book" style="font-size: 23px;"></i></li>
+
+                    <div id="Exit">
+                           <li><i class="fa-solid fa-right-from-bracket" style="font-size: 23px;"></i></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="date-section">
+            <div class="calender">
+                    <div class="left">
+                        <p id="date">00</p>
+                        <p id="day">Sunday</p>
+                    </div>
+                    <div class="right">
+                        <p id="month">January</p>
+                        <p id="year">2024</p>
+                    </div>
+            </div>    
+        
+            <script>
+                const date = document.getElementById("date");
+                const day = document.getElementById("day");
+                const month= document.getElementById("month");
+                const year = document.getElementById("year");
+
+                const today = new Date();
+
+                const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday" , "Friday", "Saturday"];
+
+                const allMonths = ["January", "February", "March", "April", "May","June", "July", "August", "September", "October" , "November", "December"];
+
+                date.innerHTML = today.getDate();
+                day.innerHTML = weekDays[today.getDay()];
+                month.innerHTML = allMonths[today.getMonth()];
+                year.innerHTML = today.getFullYear();
+            </script>
+         </div>
+
+        <div id="main-content">
+
+
+                <div class="content-items-studentsInfo">
+                    <h2>
+                        total number of  present students<br><span>50</span>
+                    </h2>
+                </div>
+                
+                <div class="content-items-studentsInfo">
+                    <h2>
+                        total number of absent students<br><span>30</span>
+                    </h2>
+                </div>
+                
+
+                <div class="content-items-studentsInfo">
+                    <h2>
+                        total number of  late students<br><span>10</span>
+                    </h2>
+                </div>
+            
+            </div>
+            <hr style="color: white; width: 80%; transform: translateY(-620px); margin-left:15%; 
+            justify-content:center;">
+            
+            <div id="subjects">
+                <div class="subject-5">
+                    <h3>Software Engineering</h3>
+                </div>
+
+                <div class="subject-5">
+                    <h3>Operating System</h3>
+                </div>
+
+                <div class="subject-5">
+                    <h3>Scripting Languages</h3>
+                </div>
+
+                <div class="subject-5">
+                    <h3>Database Management System</h3>
+                </div>
+
+                <div class="subject-5">
+                    <h3>Numerical Method</h3>
+                </div>
+
+            </div>
+    </main>
+</body>
+</html>
